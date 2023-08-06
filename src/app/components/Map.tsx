@@ -8,7 +8,7 @@ const { defaultBaseLayer: { url, attribution } } = leafletBaseLayers
 const LeafletMap = () => {
    return (
        <MapContainer
-           center={[51.505, -0.09]}
+           center={[52.5200, 13.40509]}
            zoom={13} scrollWheelZoom={true}
            style={{ height: '100vh' , width: '100vw' }}>
            <TileLayer
