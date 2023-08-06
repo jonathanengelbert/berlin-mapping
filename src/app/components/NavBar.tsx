@@ -15,26 +15,10 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Link from "next/link";
+import { navItems } from "@/config";
 
 
 const drawerWidth = 240;
-const navItems = [
-    {
-        index: 0,
-        description: 'Home',
-        route: '/',
-    },
-    {
-        index: 1,
-        description: 'Map',
-        route: '/map',
-    },
-    {
-        index: 2,
-        description: 'About',
-        route: '/about',
-    },
-];
 
 export default function NavBar() {
     const [mobileOpen, setMobileOpen] = React.useState(false);
